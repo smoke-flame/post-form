@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test task</title>
+    <link rel="stylesheet" href="./assets/scss/style.css">
+</head>
+<body>
+   <div class="wrapper">
+       <div class="container">
+           <header class="header">
+               <img src="./assets/img/logo.svg" alt="logo">
+               <nav class="nav">
+                   <a href="#" class="nav__link">Home</a>
+                   <a href="#" class="nav__link">About</a>
+                   <a href="#" class="nav__link active">Contact Us</a>
+               </nav>
+           </header>
+       </div>
+
+       <form id="form" method="POST" action="https://beryl-boggy-ceiling.glitch.me/email" class="form">
+           <div class="container form--wrapper">
+               <h1 class="form__title">Get In Touch</h1>
+               <div class="form__inner">
+                    <div class="form__action">
+                        <h2 class="form__action__title">Leave us a message</h2>
+                        <div class="form__action__group">
+                            
+                            <input id="form-name" class="form__action__input form-input" type="text" placeholder=" "> 
+                            <label class="form__action__label" for="form-name">Name *</label>                          
+                        </div>
+                        <div class="form__action__group">   
+                            <input id="form-email" class="form__action__input form-input" type="text" placeholder=" ">  
+                            <label class="form__action__label" for="form-name">Email Address *</label>                         
+                        </div>
+                        <div class="form__action__group">   
+                            <textarea id="form-text" class="form__action__input form-input" placeholder=" "></textarea>
+                            <label class="form__action__label" for="form-text">Your Message *</label>
+                        </div>
+                         <input class="form__action__btn" type="submit" value="Send"> <!--type="submit" -->
+                    </div>
+                    <div class="form__drag">
+                        <h2 class="form__drag__title">Upload your files</h2>
+                        <div class="form__drag__item">
+                            <input class="form__drag__item__input form-input" id="input-file" type="file" multipart form-data value="">
+                            <img class="form__drag__item__img" src="./assets/img/folder.svg" alt="folder">
+                            <p class="form__drag__item__text">Drag your files here.</p>
+                            <p class="form__drag__item__text">Maximum size: 2mb</p>
+                        </div>
+                    </div>
+               </div>
+               
+           </div>
+       </form>
+   </div>
+   <div class="footer">
+       <div class="footer__inner">
+           <div class="footer__links">
+               <img class="footer__links__logo" src="./assets/img/footer-logo.svg" alt="logo">
+               <div class="footer__links__quick">Quick Links</div>
+               <a href="#" class="footer__links__item">Sign Up</a>
+               <a href="#" class="footer__links__item">Abous Us</a>
+           </div>
+           <div class="footer__other">
+                <div class="footer__other__head">Other</div>
+                <a href="#" class="footer__other__link">User FAQs</a>
+                <a href="#" class="footer__other__link">Contact Us</a>
+                <a href="#" class="footer__other__link">Legal</a>
+                <a href="#" class="footer__other__link">Privacy Policy</a>
+                <a href="#" class="footer__other__link">Terms and Conditions</a>
+           </div>
+           <div class="footer__info">
+               <div class="footer__info__row">
+                   <img class="footer__info__row__img" src="./assets/img/map.svg" alt="map">
+                    <a href="#" class="footer__info__row__link">Infomation technologies building, Victoria Island, Lagos, Nigeria.</a>
+               </div>
+               <div class="footer__info__row">
+                    <img class="footer__info__row__img" src="./assets/img/phone.svg" alt="phone">
+                    <a href="#" class="footer__info__row__link">+234 081-1236-4568</a>
+               </div>
+               <div class="footer__info__row">
+                    <img class="footer__info__row__img" src="./assets/img/mail.svg" alt="mail">
+                    <a href="#" class="footer__info__row__link">hello@example.com</a>
+               </div>
+              <div class="footer__info__icons">
+                  <img class="footer__info__icons__item" src="./assets/img/youtube.svg" alt="youtube">
+                  <img class="footer__info__icons__item" src="./assets/img/instagram.svg" alt="instagram">
+                  <img class="footer__info__icons__item" src="./assets/img/facebook.svg" alt="facebook">
+                  <img class="footer__info__icons__item" src="./assets/img/twitter.svg" alt="twitter">
+              </div> 
+               
+           </div>
+           <div class="footer__map">
+               <div class="footer__map__item">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1298899.1100688325!2d29.9921457750835!3d50.51719813597332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2z0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1613142798071!5m2!1sru!2sua" 
+                frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+               </div>
+           </div>
+       </div>
+    </div>
+    <hr> 
+    <footer class="footer__copy">
+        <p class="footer__copy__text">Copyright &copy; 2020. All rights reserved.</p>
+    </footer> 
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
